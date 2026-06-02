@@ -4,7 +4,7 @@ import { createIncomingDocument } from "./core/features/createIncomingDocument.j
 import { operationPrompt } from "./prompts/operation.js";
 import { RequestService } from "./core/service/RequestService.js";
 import { getBaseUrl } from "./utils/utils.js";
-
+git branch -M main
 try {
   while (true) {
     await operationPrompt();
